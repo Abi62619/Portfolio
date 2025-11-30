@@ -481,10 +481,30 @@ p {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+.portfolio-icon .tooltip {
+    position: absolute;
+    bottom: 120%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--main-color);
+    color: var(--white-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 999;
+}
 
 .portfolio-item .portfolio-icon:hover {
     transform: scale(1.1);
     color: var(--white-color);
+}
+
+.portfolio-icon:hover .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px);
 }
 
 .portfolio-item .work-icon a:nth-child(1) i {
