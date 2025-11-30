@@ -151,6 +151,12 @@ p {
     z-index: -1;
 }
 
+.portfolio-img img {
+    width: 250px;
+    height: auto; 
+    margin: 0 auto;
+}
+
 /* 3D BOX */
 .box {
     position: relative;
@@ -418,4 +424,31 @@ p {
 
 .portfolio-list:nth-child(2) {  
     justify-content: flex-end;
+}
+
+.portfolio-item {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.portfolio-box.work .portfolio-item {
+    position: relative;
+}
+
+.portfolio-item .work-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.portfolio-item p {
+    line-height: 1.5;
+}
+
+.portfolio .portfolio-item h4 {
+    font-size: 3.2rem;
 }
