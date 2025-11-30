@@ -447,8 +447,51 @@ p {
 
 .portfolio-item p {
     line-height: 1.5;
+    font-size: 2.5rem;
 }
 
 .portfolio .portfolio-item h4 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
+}
+
+.portfolio-item .work-info .tech-used {
+    color: var(--nav-bg-color);
+    border-bottom: .1rem solid var(--white-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item .work-icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.portfolio-item .portfolio-icon {
+    position: relative;
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center;  
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 1rem;
+    background: var(--nav-bg-color);
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: var(--white-color);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.portfolio-item .portfolio-icon:hover {
+    transform: scale(1.1);
+    color: var(--white-color);
+}
+
+.portfolio-item .work-icon a:nth-child(1) i {
+    display: inline-flex;
+    transform: rotate(135deg);
+}
+
+.portfolio-icon i {
+    font-size: 3rem;
 }
