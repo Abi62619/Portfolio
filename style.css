@@ -550,7 +550,7 @@ p {
 .work-img {
     position: absolute;
     inset: 0;
-    overflow: hidden;
+    overflow-y: auto;
     z-index: 1;
 }
 
