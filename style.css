@@ -224,6 +224,11 @@ p {
 
 .home-info h3 {
     font-size: 3rem;
+    margin-top: 0.8rem;
+}
+
+.home-info p {
+    margin-top: 2rem;
 }
 
 .desc {
@@ -253,7 +258,8 @@ p {
 .btn-sci {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
+    margin-top: 3rem;
 }
 
 .btn-sci .sci a {
@@ -283,6 +289,7 @@ p {
 
 .about-info .title {
     text-align: left;
+    margin-bottom: 2rem;
 }
 
 .about-info h3 {
