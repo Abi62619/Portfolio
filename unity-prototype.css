@@ -107,6 +107,25 @@ p {
     line-height: 1.6;
 }
 
+/* LEARNT BOX */
+.learnt {
+    background: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.learnt h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--white-color);
+}
+
+.learnt p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+
 /* VIDEO CONTAINER */
 .video {
     margin-top: 2rem;
